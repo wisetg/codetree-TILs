@@ -6,6 +6,6 @@ int main() {
 
     scanf("%d", &a);
 
-    b = a =1 ? printf("t") : printf("f");
+    b = a == 1 ? printf("t") : printf("f");
     return 0;
 }
